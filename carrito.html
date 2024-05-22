@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Peluditos y peluditas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="img/patadogOficial.png">
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="INDEX.html">Tienda de Jardinería Vecinal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="INDEX.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Flores_arbusto.html">Flores y Arbustos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Maceteros.html">Maceteros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tierradehojas.html">Tierra de Hojas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sugerencias.html">Sugerencia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="carrito.html">carrito</a>
+                  </li>
+                  
+                </ul>
+            </div>
+           
+            <a class="btn btn-outline-warning" href="registro.html">Registrar</a>
+        </div>
+        <div>
+          <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+    </nav>
+    
+   
+    <br>
+    <h1 style="text-align: center;">Carrito de compras</h1>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 16rem;">
+              <img src="Captura maceteros.PNG" class="card-img-top" alt="bandanas de navidad xd">
+              <div class="card-body">
+                <h4>maceteros </h4>
+                <p class="card-text">$10.000</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 16rem;">
+              <img src="tierraanasac.webp" class="card-img-top" alt="bandanas de navidad xd">
+              <div class="card-body">
+                <h4>tierra de hojas </h4>
+                <p class="card-text">$25.000</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 16rem;">
+              <img src="flor-1.webp" class="card-img-top" alt="bandanas de navidad xd">
+              <div class="card-body">
+                <h4>flor magnolias </h4>
+                <p class="card-text">$12.990</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center;"  class="container total_compra">
+      <br>
+      <h3 >El total de su compra es:</h3>
+      <h4>$47.990</h4>
+      <button type="button"><a style="text-decoration: none; color: black; "  href="carrito.html">Agregar mas productos al carrito</a></button>
+      <button type="button">Pagar mi cuenta</button>
+      <br>
+      <br>
+      <h4>Ingresa un cupon de descuento!</h4>
+      <input type="text">
+      <br>
+      <br>
+      <button id = "botondcto">Aplicar descuento</button>
+    </div>
+  
+
+
+
+    <footer style="background-color: violet;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Contacto</h4>
+                    <p>Correo electrónico: infojardinvecinal@tudominio.com</p>
+                    <p>Teléfono: +56956336464</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="terminos.html">Términos y condiciones y politica </a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p>Derechos de autor &copy; 2024 Jardineria Vecinal. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+   
+  
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
